@@ -8,7 +8,6 @@ import {
   Activity,
   Clock,
   Users,
-  Navigation,
   Settings,
   Bell,
   ExternalLink
@@ -178,10 +177,10 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <Navigation className="w-8 h-8 text-green-600 ml-3" />
+              <Plane className="w-8 h-8 text-blue-600 ml-3" />
               <div>
-                <h1 className="text-xl font-bold text-gray-900 font-arabic">عَنان</h1>
-                <p className="text-sm text-gray-600">النظام الوطني للطيران</p>
+                <h1 className="text-xl font-bold text-gray-900 font-arabic">سماء السعودية</h1>
+                <p className="text-sm text-gray-600">نظام إدارة الطيران المتقدم</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
